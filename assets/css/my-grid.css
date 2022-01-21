@@ -116,8 +116,9 @@ Extra extra large	xxl	≥1400px
   flex-basis: var(--width);
   max-width: var(--width);
 }
-
-
+.j-c-c{
+  justify-content: center;
+}
 
 @media screen and (min-width: 576px) {
   .container {
