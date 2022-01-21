@@ -1,0 +1,11 @@
+.list-project {
+  padding: 5px;
+  background-color: #34547a;
+}
+.flex-project {
+  display: flex;
+ 
+}
+.collor-text-project {color: white;}
+.flexrow-project{flex-direction: row;
+}
