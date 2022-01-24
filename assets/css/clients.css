@@ -1,0 +1,16 @@
+.clients-section {
+  background-color: var(--backgroun-secondary-site-color);
+  padding: 10px 0;
+}
+
+@media screen and (min-width: 992px) {
+  .clients-section {
+    padding: 72px 0 100px 0;
+  }
+
+  .client-img {
+    max-width: 255px;
+    max-height: 120px;
+  }
+   
+}
