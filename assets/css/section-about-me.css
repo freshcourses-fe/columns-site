@@ -1,0 +1,12 @@
+.about-me-container{
+  margin: 0 auto;
+}
+.title-about{
+  margin: 50px 0;
+  font-size: 2rem;
+}
+.about-me-text{
+  font-size: 1rem;
+  color: #727272;
+  line-height: 160%
+}
