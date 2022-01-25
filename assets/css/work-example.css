@@ -1,0 +1,43 @@
+.work-example-section {
+  background-color: var(--background-site-color);
+  padding: 40px 0;
+}
+
+.work-example-container {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.work-example-heading {
+  margin-bottom: 30px;
+}
+
+.work-example-video {
+  width: 100%;
+  min-height: 200px;
+}
+
+@media screen and (min-width: 576px) {
+  .work-example-video {
+    min-height: 400px;
+  }
+  
+}
+
+@media screen and (min-width: 992px) {
+  .work-example-section {
+    padding: 100px 0;
+  }
+
+  .work-example-container {
+    margin-bottom: 57px;
+  }
+
+  .work-example-heading {
+    margin-bottom: 50px;
+  }  
+
+  .work-example-video {
+    min-height: 600px;
+  }
+}
