@@ -1,0 +1,44 @@
+.section-about-me {
+  background-color: var(--background-site-color-2);
+}
+
+.about-me-container {
+  margin: 50px auto;
+  width: 90%;
+  text-align: center;
+}
+.title-about {
+  margin: 15px 0;
+  font-size: 2rem;
+}
+.about-me-text {
+  font-size: 1rem;
+  color: #727272;
+  line-height: 160%;
+}
+
+@media screen and (min-width: 576px) {
+  .about-me-container {
+    width: 80%;
+  }
+
+  .title-about {
+    margin-bottom: 30px;
+  }
+
+  .skill-img-wrapper {
+    margin: 10% auto;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .about-me-container {
+    margin: 100px auto;
+    width: 40%;
+  }
+
+  .title-about {
+    margin-bottom: 50px;
+  }
+}
