@@ -4,6 +4,9 @@
   --heading-color: black;
   --text-secondary-color: white;
   --background-site-color: #EEEFF1;
+  --background-site-color-2:#E5E5E5
+  ;
+
 
   --text-font-family: 'Roboto', sans-serif;
   --logo-font-family: 'Revalia';
@@ -52,9 +55,26 @@
   align-items: center;
 }
 
-.link {
-  
+.flex-left{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
+.flex-right{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+
+.flex-wrap{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* .link {
+  
+} */
 
 @media screen and (min-width: 768px) {
   :root {
