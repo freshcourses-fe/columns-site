@@ -1,0 +1,45 @@
+.how-i-work{
+  background-color: var(--background-site-color);
+}
+
+.how-i-work-container {
+  margin: 20px auto;
+  width: 100%;
+  text-align: center;
+}
+.title-how-i-work {
+  margin-bottom: 15px;
+  font-size: 2rem;
+}
+.how-i-work-text {
+  font-size: 1rem;
+  color: #727272;
+  line-height: 160%;
+}
+
+
+@media screen and (min-width: 576px) {
+  .how-i-work-container {
+    margin: 30px 20px;
+    min-width: 25%;
+    text-align: center;
+  }
+
+  .title-how-i-work {
+    margin-bottom: 15px;
+    font-size: 2rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .how-i-work-container {
+    margin: 100px 0px 50px 0px;
+    width: 40%;
+    text-align: center;
+  }
+
+  .title-how-i-work {
+    margin-bottom: 50px;
+    font-size: 2rem;
+  }
+}
