@@ -1,0 +1,48 @@
+.video-demo {
+  background-color: var(--background-site-color);
+}
+
+.video-demo-img-wrapper {
+  background-color: var(--background-site-color);
+  margin-bottom: 20px;
+  position: relative;  
+}
+
+.video-demo-img-wrapper::before {
+  content: "";
+  position: absolute;
+  top: 40%;
+  left: 45%;
+  width: 30%;
+  height: 30%;
+  z-index: 31;
+  background-image: url("../img/play-button.png");
+  background-repeat: no-repeat;
+  background-size: 30%;
+  
+}
+
+.video-demo-img-wrapper:hover::after{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #0000004d;
+  opacity: 0.8;
+
+}
+
+@media screen and (min-width: 576px) {
+  .video-demo-img-wrapper {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .video-demo-img-wrapper {
+    margin-bottom: 100px;
+  }
+  
+}
